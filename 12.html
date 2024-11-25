@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Title</title>
+    <style>
+        body {
+       margin: 0;
+       font-family: Arial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       height: 100vh;
+        }
+        .content {
+      text-align: center;
+       padding: 20px;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        @media (min-width: 600px) and (max-width: 900px) {
+        h1 {
+         font-size: 3rem;
+        }
+    }
+        @media (min-width: 900px) {
+        h1 {
+         font-size: 4rem;
+        }
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Responsive Title</h1>
+        <p>This is a description paragraph. The title font size changes based on the screen size.</p>
+      </div>
+</body>
+</html>
